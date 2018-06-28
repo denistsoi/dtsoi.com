@@ -1,7 +1,8 @@
-vuepress build pages
-cd pages/.vuepress/dist
+#!/bin/bash
+vuepress build docs
+cd docs/.vuepress/dist
 
 git init
 git add .
 git commit -m "Deploy"  
-git push -f git@github.com:denistsoi/rg master:gh-pages
+git push -f git@github.com:denistsoi/denistsoi.github.io master:master

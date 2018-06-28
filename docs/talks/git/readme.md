@@ -1,16 +1,12 @@
----
-prev: /en/
-next: false
-sidebar: auto
----
-
 ## git terminal workshop
 
 install git
 sourcetree gui (git)
 
+```
 git config user.name <name>
 git config user.email <email>
+```
 
 ### init (start a new project)
 ```
@@ -171,7 +167,6 @@ git cherrypick <commitmessage>
 ```
 
 ## submodules (advanced topic)
-// todo
 
 
 ## cheats

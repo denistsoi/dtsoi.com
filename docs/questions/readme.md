@@ -1,5 +1,9 @@
 # coding interview questions
 
+- [cpp school](./cpp/)
+- [cracking the coding interview](./cracking/)
+- [csdojo](./csdojo)
+
 ### Topics
 
 - Big O

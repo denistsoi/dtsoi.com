@@ -1,6 +1,6 @@
-### Python
+# Talks
 
-* [Basic Concepts](./py/01)
+- [git workshop](./git/)
 
 <!-- ## TODO 
 
