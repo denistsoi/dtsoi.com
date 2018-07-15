@@ -1,9 +1,3 @@
----
-prev: /en/
-next: false
-sidebar: auto
----
-
 # Javascript code is single threaded...
 
 ### However, the browser/node uses multiple processes to leverage multithreading on a CPU level.

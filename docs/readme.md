@@ -1,5 +1,3 @@
-
-- [cv](./cv/)
-- [talks](./talks/)
+- [CV](./cv/)
 - [questions](./questions/)
-- [snippets](./snippets/)
+<!-- - [snippets](./snippets/) -->

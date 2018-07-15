@@ -1,13 +1,13 @@
 
 ::: tip Summary
 Software Developer with 5 years industry experience.  
-Formerly a Senior Precious Metals Dealer in Hong Kong.  
+Formerly Precious Metals Dealer in Hong Kong.  
 Looking for open-minded group of engineers that **love** to code.
 :::
 
 ## Relevant Experience
 
-### 02/2018 - Present
+### 02/2018 - 07/2018
 ```
 Software Engineer
 Scribe Intelligence
