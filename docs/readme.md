@@ -1,3 +1,3 @@
-- [CV](./cv/)
+- [cv](./cv/)
 - [questions](./questions/)
 <!-- - [snippets](./snippets/) -->

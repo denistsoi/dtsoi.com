@@ -2,7 +2,8 @@
 
 - [cpp school](./cpp/)
 - [cracking the coding interview](./cracking/)
-- [csdojo](./csdojo)
+- [csdojo](./csdojo/)
+- [leetcode](./leetcode/)
 
 ### Topics
 
