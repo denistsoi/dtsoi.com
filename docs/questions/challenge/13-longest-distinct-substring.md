@@ -1,3 +1,5 @@
+```js
+
 // This problem was asked by Amazon.
 
 // Given an integer k and a string s, 
@@ -56,3 +58,4 @@ findLongest('abcbal', 3); //?
 findLongest('abaac', 2); //?
 findLongest('caba', 2);  //?
 findLongest('abababacbcbcbcbcb', 2); //?
+```
