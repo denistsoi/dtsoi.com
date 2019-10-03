@@ -27,7 +27,7 @@ p {
     @apply pb-2 m-0 mt-4 font-light text-lg
   }
   .time {
-    @apply text-sm bg-green-900 rounded text-gray-100 py-1 px-2
+    @apply text-sm bg-green-900 rounded text-gray-100 py-1 px-2 ml-1
   }
 }
 </style>

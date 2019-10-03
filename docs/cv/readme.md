@@ -18,9 +18,9 @@ Software Engineer
 Covergo
 ```
 
+- Lead developer on React Native app for offline insurance applications.
 - Developed on white-label insurance comparison website.
 - Developed scripts for devops / automated qa.
-- Developed React Native app for offline insurance applications.
 
 ### 02/2018 - 07/2018 <span class="time">6m</span>
 
@@ -43,8 +43,8 @@ GDC/Energybox (Product Team)
 ```
 
 - Introduced modern web practices, webpack/npm/automated build steps.
-- Implemented custom Mapbox-gl view for application using open-source map tile providers.
-- Built proof of concept to improve data processing pipeline using [nedis](https://github.com/tj/nedis) and pm2 workers.
+- Implemented custom Mapbox-gl using open-source map tile providers.
+- Built POC to improve data processing pipeline using [nedis](https://github.com/tj/nedis) and pm2 workers.
 
 ### 06/2016 - 12/2016 <span class="time">6m</span>
 
@@ -79,7 +79,7 @@ Makible
 ```
 
 - Introduced to Golang development.
-- Focused mainly on Chrome Extension app using ThreeJS.
+- Focused mainly on Chrome Extension app using ThreeJS
   - and serial api to communicate with Makibox 3D printer.
 
 ### 08/2013 - 01/2014 <span class="time">5m</span>
@@ -115,7 +115,7 @@ General Assembly, Hong Kong
 Frontend Web Development Alumni
 ```
 
-- 10 week part time evening course teaching the fundamentals of frontend web development.
+- Part time evening course teaching the fundamentals of frontend web development.
 - Was successfully hired as a junior developer for [Imagination](#_08-2013-01-2014) before course completion.
 
 ### 07/2011 - 10/2012
@@ -175,5 +175,3 @@ Committee Member
 Dim Sum Labs, Hackerspace
 Community Organiser
 ```
-
-- Organised events for Hackerspace.
