@@ -33,7 +33,9 @@ module.exports = {
 	},
 	themeConfig: {
 		nav: [
-			{ text: "CV", link: "cv/" }
+			{ text: "cv", link: "cv" },
+			{ text: "refugeek", link: "rg" }
+
 			// { text: "talks", link: "https://denistsoi.github.io/talks/" },
 			// { text: "Github", link: "https://github.com/denistsoi" }
 		]
