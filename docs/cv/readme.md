@@ -4,9 +4,9 @@ layout: "cv"
 ---
 
 ::: tip Summary
-Software Developer with 5 years industry experience.
-Formerly Precious Metals Dealer in Hong Kong.
-Looking for open-minded group of engineers that **love** to code.
+Software Developer with 6+ years industry experience.  
+Formerly Precious Metals Dealer in Hong Kong.  
+Looking for open-minded group of engineers that **love** to code.  
 :::
 
 ## Relevant Experience
