@@ -47,7 +47,9 @@ module.exports = {
 		toc: { includeLevel: [1, 2] },
 		extendMarkdown: md => {
 			// use more markdown-it plugins!
-			md.use(...createContainer("tip", "TIP"));
+			md.use(...createContainer("tip", "TIP")).use(
+				...createContainer("job", "")
+			);
 		}
 	},
 	configureWebpack: {

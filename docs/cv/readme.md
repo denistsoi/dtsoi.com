@@ -13,10 +13,10 @@ Looking for open-minded groups of engineers that **love** to code.
 
 ### 08/2018 - 11/2019 <span class="time">15m</span>
 
-```
+::: job
 Software Engineer
 Covergo
-```
+:::
 
 - Lead developer on React Native app for offline insurance applications.
 - Developed on white-label insurance comparison website.
@@ -24,10 +24,10 @@ Covergo
 
 ### 02/2018 - 07/2018 <span class="time">6m</span>
 
-```
+::: job
 Software Engineer
 Scribe Intelligence
-```
+:::
 
 - Added API methods using Express/Sequelize/Postgres.
 - Used AWS Lambda functions to act as SQS consumer.
@@ -37,10 +37,10 @@ Scribe Intelligence
 
 ### 12/2016 - 02/2018 <span class="time">1y 3m</span>
 
-```
+::: job
 Software Engineer
 GDC/Energybox (Product Team)
-```
+:::
 
 - Introduced modern web practices, webpack/npm/automated build steps.
 - Implemented custom Mapbox-gl using open-source map tile providers.
@@ -48,10 +48,10 @@ GDC/Energybox (Product Team)
 
 ### 06/2016 - 12/2016 <span class="time">6m</span>
 
-```
+::: jon
 Sabbatical
 Various
-```
+:::
 
 - Freelance Contract work for whub, levels, ruemadame and others.
 - Developed using Wordpress and PHP scripts.
@@ -59,10 +59,10 @@ Various
 
 ### 06/2014 - 06/2016 <span class="time">2y</span>
 
-```
+::: job
 Software Engineer
 Seed Alpha
-```
+:::
 
 - Frontend Developer for Fintech App.
   - Web Application using MEVN stack (Vue/Mongo/Express).
@@ -73,10 +73,10 @@ Seed Alpha
 
 ### 01/2014 - 05/2014 <span class="time">6m</span>
 
-```
+::: job
 Web Developer
 Makible
-```
+:::
 
 - Introduced to Golang development.
 - Focused mainly on Chrome Extension app using ThreeJS
@@ -84,10 +84,10 @@ Makible
 
 ### 08/2013 - 01/2014 <span class="time">5m</span>
 
-```
+::: job
 Junior Developer
 Imagination
-```
+:::
 
 - Frontend Web Development using AngularJS and SCSS.
 - Involved with the development of Pacific Place (Admiralty) Touch Table Interface.
@@ -97,10 +97,10 @@ Imagination
 
 ### 05/2010 - 08/2013 <span class="time">3y</span>
 
-```
+::: job
 Precious Metals Dealer (Senior)
 Various
-```
+:::
 
 - In-charge of training and setting up teams for monitoring precious metals volatility.
 - Self-taught programming by automating work flows with VBA scripts.
@@ -110,49 +110,49 @@ Various
 
 ### 04/2013 - 08/2013
 
-```
+::: job
 General Assembly, Hong Kong
 Frontend Web Development Alumni
-```
+:::
 
 - Part time evening course teaching the fundamentals of frontend web development.
 - Was successfully hired as a junior developer for [Imagination](#_08-2013-01-2014) before course completion.
 
 ### 07/2011 - 10/2012
 
-```
+::: job
 Chinese University of Hong Kong,
 Chinese Learning Centre
 Foundation Certificate in Putonghua
 for Non-Native Chinese Speakers
-```
+:::
 
 - Evening classes for learning Putonghua.
 - Completed 5 modules.
 
 ### 04/2012 - 06/2012
 
-```
+::: job
 Chinese University of Hong Kong,
 School of Continuing Professional Studies.
 C/C++ and Project
-```
+:::
 
 ### 08/2005 - 07/2008
 
-```
+::: job
 BA Economics
 Lancaster University
-```
+:::
 
 ## Community Experience
 
 ### 05/2018 - 06/2018
 
-```
+::: job
 Refugeek, BSD
 Javascript Instructor
-```
+:::
 
 - (5 weeks) weekly evening workshops teaching javascript fundamentals.
 - Built cirriculum based on student knowledge.
@@ -161,17 +161,17 @@ Javascript Instructor
 
 ### 04/2016 - 01/2018
 
-```
+::: job
 Hong Kong Web Developers
 Committee Member
-```
+:::
 
 - Organised monthly Tech talks/venue with hk community speakers.
 - Gave numerous talks on development related topics.
 
 ### 07/2012 - 06/2014
 
-```
+::: job
 Dim Sum Labs, Hackerspace
 Community Organiser
-```
+:::
