@@ -33,7 +33,7 @@ module.exports = {
 	},
 	themeConfig: {
 		nav: [
-			{ text: "CV", link: "/cv/" }
+			{ text: "CV", link: "cv/" }
 			// { text: "talks", link: "https://denistsoi.github.io/talks/" },
 			// { text: "Github", link: "https://github.com/denistsoi" }
 		]
@@ -46,6 +46,13 @@ module.exports = {
 		extendMarkdown: md => {
 			// use more markdown-it plugins!
 			md.use(...createContainer("tip", "TIP"));
+		}
+	},
+	configureWebpack: {
+		resolve: {
+			alias: {
+				"@assets": "theme/assets/"
+			}
 		}
 	}
 };
