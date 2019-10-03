@@ -24,9 +24,7 @@ ul {
   list-style-type: disc;
 }
 
-a {
-  color: #3498db;
-}
+
 
 ul li a {
   text-decoration underline;
@@ -39,6 +37,9 @@ ul li a {
 
 
 @css {
+  a {
+    @apply text-blue-500;
+  }
   p {
     @apply mt-2 mb-2
   }
@@ -66,6 +67,6 @@ ul li a {
   .job {
     @apply p-4 text-gray-100 rounded bg-blue-900 mb-2;
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    
+
   }
 }

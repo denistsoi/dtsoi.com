@@ -1,6 +1,6 @@
 <template>
-  <div class="w-full md:w-4/5 text-gray m-auto pt-10 p-8 pb-12 max-w-2xl">
-    <Content />
+  <div class="w-full md:w-4/5 text-gray m-auto p-4 md:p-8 max-w-2xl">
+    <Content class="text-sm md:text-md" />
 
     <div class="mt-4 mb-4">
       <Content slot-key="links" />
