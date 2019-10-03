@@ -1,27 +1,28 @@
+---
+title: "cv"
+layout: "cv"
+---
+
 ::: tip Summary
 Software Developer with 5 years industry experience.
 Formerly Precious Metals Dealer in Hong Kong.
 Looking for open-minded group of engineers that **love** to code.
 :::
 
-## Subscribe for updates below:
-
-<form style="padding:3px;text-align:center;" action="https://tinyletter.com/denistsoi" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/denistsoi', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Enter your email address</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" style="margin-bottom: 8px"/></form>
-
 ## Relevant Experience
 
-### 08/2018 - Present
+### 08/2018 - 11/2019 <span class="time">15m</span>
 
 ```
 Software Engineer
 Covergo
 ```
 
-- Led development of white-label ecommerce policy insurance product.
+- Developed on white-label insurance comparison website.
 - Developed scripts for devops / automated qa.
-- Built a raspberry pi cluster (runs K8s) that I maintain in the office.
+- Developed React Native app for offline insurance applications.
 
-### 02/2018 - 07/2018
+### 02/2018 - 07/2018 <span class="time">6m</span>
 
 ```
 Software Engineer
@@ -34,18 +35,18 @@ Scribe Intelligence
 - Assisted with deploying Gentle realignment app. (based on Kaldi).
 - Refactored React web app.
 
-### 12/2016 - 02/2018
+### 12/2016 - 02/2018 <span class="time">1y 3m</span>
 
 ```
 Software Engineer
 GDC/Energybox (Product Team)
 ```
 
-- Introduced modern web practices, _webpack/npm/automated build steps etc_.
+- Introduced modern web practices, webpack/npm/automated build steps.
 - Implemented custom Mapbox-gl view for application using open-source map tile providers.
 - Built proof of concept to improve data processing pipeline using [nedis](https://github.com/tj/nedis) and pm2 workers.
 
-### 06/2016 - 12/2016
+### 06/2016 - 12/2016 <span class="time">6m</span>
 
 ```
 Sabbatical
@@ -56,7 +57,7 @@ Various
 - Developed using Wordpress and PHP scripts.
 - Went travelling.
 
-### 06/2014 - 06/2016
+### 06/2014 - 06/2016 <span class="time">2y</span>
 
 ```
 Software Engineer
@@ -70,7 +71,7 @@ Seed Alpha
 - Implemented chatbot for 2015 RISE conf.
   - Leveraged Heroku, Slack API, Yahoo Finance API and WIT.AI.
 
-### 01/2014 - 05/2014
+### 01/2014 - 05/2014 <span class="time">6m</span>
 
 ```
 Web Developer
@@ -81,7 +82,7 @@ Makible
 - Focused mainly on Chrome Extension app using ThreeJS.
   - and serial api to communicate with Makibox 3D printer.
 
-### 08/2013 - 01/2014
+### 08/2013 - 01/2014 <span class="time">5m</span>
 
 ```
 Junior Developer
@@ -94,7 +95,7 @@ Imagination
 
 ## Other Experience
 
-### 05/2010 - 08/2013
+### 05/2010 - 08/2013 <span class="time">3y</span>
 
 ```
 Precious Metals Dealer (Senior)
@@ -120,8 +121,10 @@ Frontend Web Development Alumni
 ### 07/2011 - 10/2012
 
 ```
-Chinese University of Hong Kong, Chinese Learning Centre
-Foundation Certificate in Putonghua for Non-Native Chinese Speakers
+Chinese University of Hong Kong,
+Chinese Learning Centre
+Foundation Certificate in Putonghua
+for Non-Native Chinese Speakers
 ```
 
 - Evening classes for learning Putonghua.
@@ -130,11 +133,10 @@ Foundation Certificate in Putonghua for Non-Native Chinese Speakers
 ### 04/2012 - 06/2012
 
 ```
-Chinese University of Hong Kong, School of Continuing Professional Studies.
+Chinese University of Hong Kong,
+School of Continuing Professional Studies.
 C/C++ and Project
 ```
-
-- Evening classes for learning C and C++.
 
 ### 08/2005 - 07/2008
 

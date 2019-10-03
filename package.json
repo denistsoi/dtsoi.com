@@ -1,15 +1,24 @@
 {
-  "name": "personal",
-  "version": "1.0.0",
-  "description": "a vuepress site for resume",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
-  "scripts": {
-    "dev": "vuepress dev docs",
-    "deploy": "bash sh/deploy.sh"
-  },
-  "author": "Denis Tsoi",
-  "license": "MIT"
+	"name": "personal",
+	"version": "1.0.0",
+	"description": "a vuepress site for resume",
+	"main": "index.js",
+	"directories": {
+		"doc": "docs"
+	},
+	"scripts": {
+		"dev": "vuepress dev docs",
+		"deploy": "bash sh/deploy.sh"
+	},
+	"author": "Denis Tsoi",
+	"license": "MIT",
+	"dependencies": {},
+	"devDependencies": {
+		"autoprefixer": "^9.4.2",
+		"markdown-it-container": "^2.0.0",
+		"postcss-import": "^12.0.1",
+		"postcss-loader": "^3.0.0",
+		"tailwindcss": "^1.1.2",
+		"vuepress": "^1.1.0"
+	}
 }

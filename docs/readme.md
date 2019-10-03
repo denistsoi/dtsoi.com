@@ -1,8 +1,8 @@
-> Hi there 👋🏼. 
+> Hi there 👋🏼.
 
-I'm a software developer based in Hong Kong  
-with a particular focus on **building web applications**  
-and an interest in building scalable teams.
+I'm Denis, a software developer based in Hong Kong,  
+I've helped ship products, projects, features for startups  
+and I have a particular interest in solving difficult problems.
 
 - [CV](./cv/)
-- [Coding Interview Practice](./questions/)
+  <!-- - [Coding Interview Practice](./questions/) -->
