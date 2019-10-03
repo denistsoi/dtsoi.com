@@ -1,8 +1,10 @@
 > Hi there 👋🏼.
 
-I'm Denis, a software developer based in Hong Kong,  
-I've helped ship products, projects, features for startups  
-and I have a particular interest in solving difficult problems.
+I'm Denis, a software developer based in Hong Kong.
+
+I've help startups and clients ship product features,  
+I have a personal interest in solving difficult problems  
+as well as building culture for strong scalable teams.
 
 ::: slot image
 ![alt text](assets/picture.jpg)
@@ -11,5 +13,5 @@ and I have a particular interest in solving difficult problems.
 ::: slot links
 
 - [CV](./cv/)
-  <!-- - [Coding Interview Practice](./questions/) -->
+- [Refugeek](./rg/)
   :::

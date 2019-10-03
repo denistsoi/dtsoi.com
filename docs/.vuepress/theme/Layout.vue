@@ -1,17 +1,20 @@
 <template>
   <div>
-    <!-- <header :content="headerContent" /> -->
-
-    <component :is="layout" />
+    <coreheader />
+    <div>
+      <component :is="layout" />
+    </div>
   </div>
 </template>
 
 <script>
+import coreheader from "./core/header";
 import cv from "./layouts/cv";
 import home from "./layouts/home";
 
 export default {
   components: {
+    coreheader,
     cv,
     home
   },

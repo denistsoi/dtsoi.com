@@ -6,7 +6,7 @@
       <Content slot-key="links" />
     </div>
 
-    <Content class="rounded" slot-key="image" />
+    <Content slot-key="image" />
   </div>
 </template>
 

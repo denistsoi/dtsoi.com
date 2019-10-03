@@ -36,13 +36,18 @@ ul li a {
   font-size: 1.5rem;
 }
 
-p {
-  margin: 1rem;
-}
+
 
 @css {
+  p {
+    @apply mt-2 mb-2
+  }
   pre {
     @apply p-4 text-gray-100 rounded bg-blue-900 mb-2
+  }
+
+  h1 {
+    @apply pb-2 m-0 mt-8 font-light font-bold text-2xl
   }
 
   h2 {
@@ -53,5 +58,9 @@ p {
   }
   .time {
     @apply text-sm bg-green-900 rounded text-gray-100 py-1 px-2 ml-1
+  }
+
+  img {
+    @apply rounded shadow
   }
 }
