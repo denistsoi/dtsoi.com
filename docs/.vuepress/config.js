@@ -13,7 +13,7 @@ function createContainer(type, defaultTitle) {
 					.trim();
 				const title = info || defaultTitle;
 				if (token.nesting === 1) {
-					return `<div class="${type} custom-block"><p class="custom-block-title">${title}</p>\n`;
+					return `<div class="${type} custom-block text-sm md:text-base"><p class="custom-block-title">${title}</p>\n`;
 				} else {
 					return `</div>\n`;
 				}

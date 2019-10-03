@@ -14,7 +14,7 @@ Looking for open-minded groups of engineers that **love** to code.
 ### 08/2018 - 11/2019 <span class="time">15m</span>
 
 ::: job
-Software Engineer
+Software Engineer  
 Covergo
 :::
 
@@ -25,7 +25,7 @@ Covergo
 ### 02/2018 - 07/2018 <span class="time">6m</span>
 
 ::: job
-Software Engineer
+Software Engineer  
 Scribe Intelligence
 :::
 
@@ -38,8 +38,8 @@ Scribe Intelligence
 ### 12/2016 - 02/2018 <span class="time">1y 3m</span>
 
 ::: job
-Software Engineer
-GDC/Energybox (Product Team)
+Software Engineer  
+Energybox (formerly GDC)
 :::
 
 - Introduced modern web practices, webpack/npm/automated build steps.
@@ -48,8 +48,8 @@ GDC/Energybox (Product Team)
 
 ### 06/2016 - 12/2016 <span class="time">6m</span>
 
-::: jon
-Sabbatical
+::: job
+Sabbatical/Travelling  
 Various
 :::
 
@@ -60,7 +60,7 @@ Various
 ### 06/2014 - 06/2016 <span class="time">2y</span>
 
 ::: job
-Software Engineer
+Software Engineer  
 Seed Alpha
 :::
 
@@ -74,7 +74,7 @@ Seed Alpha
 ### 01/2014 - 05/2014 <span class="time">6m</span>
 
 ::: job
-Web Developer
+Web Developer  
 Makible
 :::
 
@@ -85,7 +85,7 @@ Makible
 ### 08/2013 - 01/2014 <span class="time">5m</span>
 
 ::: job
-Junior Developer
+Junior Developer  
 Imagination
 :::
 
@@ -98,7 +98,7 @@ Imagination
 ### 05/2010 - 08/2013 <span class="time">3y</span>
 
 ::: job
-Precious Metals Dealer (Senior)
+Precious Metals Dealer (Senior)  
 Various
 :::
 
@@ -111,19 +111,19 @@ Various
 ### 04/2013 - 08/2013
 
 ::: job
-General Assembly, Hong Kong
+General Assembly  
 Frontend Web Development Alumni
 :::
 
 - Part time evening course teaching the fundamentals of frontend web development.
-- Was successfully hired as a junior developer for [Imagination](#_08-2013-01-2014) before course completion.
+- Was successfully hired as a junior developer for [Imagination](#_08-2013-01-2014-5m) before course completion.
 
 ### 07/2011 - 10/2012
 
 ::: job
-Chinese University of Hong Kong,
+Chinese University of Hong Kong,  
 Chinese Learning Centre
-Foundation Certificate in Putonghua
+Foundation Certificate in Putonghua  
 for Non-Native Chinese Speakers
 :::
 
@@ -133,7 +133,7 @@ for Non-Native Chinese Speakers
 ### 04/2012 - 06/2012
 
 ::: job
-Chinese University of Hong Kong,
+Chinese University of Hong Kong,  
 School of Continuing Professional Studies.
 C/C++ and Project
 :::
@@ -141,7 +141,7 @@ C/C++ and Project
 ### 08/2005 - 07/2008
 
 ::: job
-BA Economics
+BA Economics  
 Lancaster University
 :::
 
@@ -150,7 +150,7 @@ Lancaster University
 ### 05/2018 - 06/2018
 
 ::: job
-Refugeek, BSD
+Refugeek, BSD  
 Javascript Instructor
 :::
 
@@ -162,7 +162,7 @@ Javascript Instructor
 ### 04/2016 - 01/2018
 
 ::: job
-Hong Kong Web Developers
+Hong Kong Web Developers  
 Committee Member
 :::
 
@@ -172,6 +172,6 @@ Committee Member
 ### 07/2012 - 06/2014
 
 ::: job
-Dim Sum Labs, Hackerspace
+Dim Sum Labs, Hackerspace  
 Community Organiser
 :::
