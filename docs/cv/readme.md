@@ -1,6 +1,6 @@
 ---
 title: "cv"
-layout: "cv"
+layout: "detail"
 ---
 
 ::: tip Summary

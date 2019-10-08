@@ -1,6 +1,6 @@
 <template>
   <div>
-    <coreheader />
+    <coreheader :showLinks="true" />
     <div class="w-full md:w-4/5 text-gray m-auto p-4 md:p-8 max-w-2xl">
       <Content />
     </div>

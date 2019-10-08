@@ -2,6 +2,7 @@
 prev: /en/
 next: false
 sidebar: auto
+layout: "detail"
 ---
 
 # Lesson 02 - Loops + Arrays

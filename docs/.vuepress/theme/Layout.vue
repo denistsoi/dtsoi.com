@@ -9,13 +9,13 @@
 
 <script>
 import coreheader from "./core/header";
-import cv from "./layouts/cv";
+import detail from "./layouts/detail";
 import home from "./layouts/home";
 
 export default {
   components: {
     coreheader,
-    cv,
+    detail,
     home
   },
   computed: {

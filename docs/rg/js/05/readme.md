@@ -2,6 +2,7 @@
 prev: /en/
 next: false
 sidebar: auto
+layout: "detail"
 ---
 
 # Lesson 5 - Recap
@@ -9,105 +10,93 @@ sidebar: auto
 ### Lets build a calculator
 
 ### how do we attach a javascript function to html
-``` html
+
+```html
 <body>
-  <button onclick="add()">increment</button>
-  <span>Total<span id="count"></span></span>
+	<button onclick="add()">increment</button>
+	<span>Total<span id="count"></span></span>
 </body>
 ```
 
-``` js
+```js
 let counter = 0;
 
-function add () {
-  counter = counter ++;
+function add() {
+	counter = counter++;
 }
 ```
 
 ### add input element
-``` html
+
+```html
 <body>
-  <button onclick="add()">increment</button>
+	<button onclick="add()">increment</button>
 
-  <input id="userInput" type="number" />
-  <span>Total<span id="count"></span></span>
-
+	<input id="userInput" type="number" />
+	<span>Total<span id="count"></span></span>
 </body>
 ```
 
 ### get user input into javascript
 
-``` js
+```js
 let counter = 0;
 
-function add () {
-  counter = counter + parseInt(userInput.value);
+function add() {
+	counter = counter + parseInt(userInput.value);
 }
 ```
 
-* we `parseInt` as `userInput.value` is of type `string`;
-
-
+- we `parseInt` as `userInput.value` is of type `string`;
 
 ### add minus, multiply and divide buttons
 
-``` html
+```html
 <body>
-  <button onclick="add()">increment</button>
-  <button onclick="minus()">decrement</button>
-  <button onclick="multiply()">multiply</button>
-  <button onclick="divide()">divide</button>
+	<button onclick="add()">increment</button>
+	<button onclick="minus()">decrement</button>
+	<button onclick="multiply()">multiply</button>
+	<button onclick="divide()">divide</button>
 
-  <input id="userInput" type="number" />
-  <span>Total<span id="count"></span></span>
-
+	<input id="userInput" type="number" />
+	<span>Total<span id="count"></span></span>
 </body>
 ```
 
+### write minus, multiply and divide functions
 
-
-### write minus,  multiply and divide functions
-
-
-``` js
+```js
 let counter = 0;
 
-function add () {
-  counter = counter + parseInt(userInput.value);
+function add() {
+	counter = counter + parseInt(userInput.value);
 }
 
-function minus () {
- 
-}
+function minus() {}
 
-function multiply () {
- 
-}
+function multiply() {}
 
-function divide () {
- 
-}
+function divide() {}
 ```
 
 ### (answer)
 
-
-``` js
+```js
 let counter = 0;
 
-function add () {
-  counter = counter + parseInt(userInput.value);
+function add() {
+	counter = counter + parseInt(userInput.value);
 }
 
-function minus () {
-  counter = counter - parseInt(userInput.value);
+function minus() {
+	counter = counter - parseInt(userInput.value);
 }
 
-function multiply () {
-  counter = counter * parseInt(userInput.value);
+function multiply() {
+	counter = counter * parseInt(userInput.value);
 }
 
-function divide () {
-  counter = counter / parseInt(userInput.value);
+function divide() {
+	counter = counter / parseInt(userInput.value);
 }
 ```

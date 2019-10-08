@@ -12,5 +12,5 @@ I've help startups and clients ship product features. I have a personal interest
 ::: slot links
 
 - [CV](./cv/)
-- [Refugeek](./rg/)
+- [Refugeek](rg/)
   :::

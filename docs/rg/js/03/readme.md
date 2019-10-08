@@ -2,51 +2,51 @@
 prev: /en/
 next: false
 sidebar: auto
+layout: "detail"
 ---
 
 # lesson 3
 
 ## What we will do
 
-* learn DOM Events
-* learn about eventListeners
-* introduction to objects
+- learn DOM Events
+- learn about eventListeners
+- introduction to objects
 
 ## Events
 
 Note: You dont need to know all of these - but you can check them here
-[MDN](https://developer.mozilla.org/en-US/docs/Web/API/EventListener)  
+[MDN](https://developer.mozilla.org/en-US/docs/Web/API/EventListener)
 
-
-``` md {4,13}
-abort, 
-beforeinput, 
-blur, 
-click, 
-compositionstart, 
-compositionupdate, 
-compositionend, 
-dblclick, 
-error, 
-focus, 
-focusin, 
-focusout, 
-input, 
-keydown, 
-keypress, 
-keyup, 
-load, 
-mousedown, 
-mouseenter, 
-mouseleave, 
-mousemove, 
-mouseout, 
-mouseover, 
-mouseup, 
-resize, 
-scroll, 
-select, 
-unload, 
+```md {4,13}
+abort,
+beforeinput,
+blur,
+click,
+compositionstart,
+compositionupdate,
+compositionend,
+dblclick,
+error,
+focus,
+focusin,
+focusout,
+input,
+keydown,
+keypress,
+keyup,
+load,
+mousedown,
+mouseenter,
+mouseleave,
+mousemove,
+mouseout,
+mouseover,
+mouseup,
+resize,
+scroll,
+select,
+unload,
 wheel
 ```
 
@@ -55,44 +55,49 @@ wheel
 - Add Event Listener
 - Remove Event Listener
 
-``` js
+```js
 ele.addEventListener(evt, listener, [options]);
 ```
 
 `ele` – The HTML element the event listener will be listening for.  
 `evt` – The targeted event.  
 `listener` – Typically, a JavaScript function.  
-`options` – (optional) An object with a set of boolean properties (listed below).  
-
+`options` – (optional) An object with a set of boolean properties (listed below).
 
 ### Bark Example
 
-``` js
-var dog = document.createElement('button');
-dog.innerHTML = 'bark?'
+```js
+var dog = document.createElement("button");
+dog.innerHTML = "bark?";
 
-dog.addEventListener('click', function bark (event) {
-  // code here
-  console.log(event.target);
-}, false);  
+dog.addEventListener(
+	"click",
+	function bark(event) {
+		// code here
+		console.log(event.target);
+	},
+	false
+);
 
 // append dog to body
 document.body.appendChild(dog);
 ```
+
 ::: tip Extra Reading
+
 - [When to use buttons](https://css-tricks.com/use-button-element/)
-:::
+  :::
 
 ### onclick Example
 
-``` js
+```js
 var dog = document.createElement('button');
 dog.innerHTML = 'bark?'
 
 dog.onclick = function bark (event) {
   // code here
   console.log(event.target);
-}, false);  
+}, false);
 
 ```
 
@@ -102,30 +107,30 @@ dog.onclick = function bark (event) {
 
 > view [list](./list.html)
 
-``` html
+```html
 <body>
-  <script>
-  // Make a list
-  var ul = document.createElement('ul');
-  document.body.appendChild(ul);
+	<script>
+		// Make a list
+		var ul = document.createElement("ul");
+		document.body.appendChild(ul);
 
-  var li1 = document.createElement('li');
-  var li2 = document.createElement('li');
-  li1.innerHTML = 'first';
-  li2.innerHTML = 'second';
-  ul.appendChild(li1);
-  ul.appendChild(li2);
+		var li1 = document.createElement("li");
+		var li2 = document.createElement("li");
+		li1.innerHTML = "first";
+		li2.innerHTML = "second";
+		ul.appendChild(li1);
+		ul.appendChild(li2);
 
-  function hide(e){
-    // e.target refers to the clicked <li> element
-    // This is different than e.currentTarget which would refer to the parent <ul> in this context
-    e.target.style.visibility = 'hidden';
-  }
+		function hide(e) {
+			// e.target refers to the clicked <li> element
+			// This is different than e.currentTarget which would refer to the parent <ul> in this context
+			e.target.style.visibility = "hidden";
+		}
 
-  // Attach the listener to the list
-  // It will fire when each <li> is clicked
-  ul.addEventListener('click', hide, false);
-  </script>
+		// Attach the listener to the list
+		// It will fire when each <li> is clicked
+		ul.addEventListener("click", hide, false);
+	</script>
 </body>
 ```
 
@@ -135,19 +140,21 @@ dog.onclick = function bark (event) {
 
 ### Bubbling
 
-``` html
-<form onclick="alert('form')">FORM
-  <div onclick="alert('div')">DIV
-    <p onclick="alert('p')">P</p>
-  </div>
+```html
+<form onclick="alert('form')">
+	FORM
+	<div onclick="alert('div')">
+		DIV
+		<p onclick="alert('p')">P</p>
+	</div>
 </form>
-
 ```
+
 ### Stop Bubbling
 
-``` html
+```html
 <body onclick="alert(`the bubbling doesn't reach here`)">
-  <button onclick="event.stopPropagation()">Click me</button>
+	<button onclick="event.stopPropagation()">Click me</button>
 </body>
 ```
 
@@ -165,25 +172,26 @@ Each handler can access event object properties:
 - `event.currentTarget` (=this) – the current element that handles the event (the one that has the handler on it)
 - `event.eventPhase` – the current phase (capturing=1, bubbling=3).
 
-
-
 ### DOM Selection (after load)
-``` js
-document.querySelector(selector) // get an element
 
-document.querySelector('button')     // find an element with tagName button
-document.querySelector('.className') // find an element with class className
-document.querySelector('#idName')    // find an element with id idName
+```js
+document.querySelector(selector); // get an element
+
+document.querySelector("button"); // find an element with tagName button
+document.querySelector(".className"); // find an element with class className
+document.querySelector("#idName"); // find an element with id idName
 ```
 
 ## Assignments
 
 ### Challenge 1: Change Background Color
 
-  see [Challenge](01-challenge.md)  
+see [Challenge](01-challenge.md)
 
 ### Challenge 2: Image Carousel (Optional)
-  see [Challenge](02-challenge.md)  
+
+see [Challenge](02-challenge.md)
 
 ### Challenge 3: Number Pad (Optional)
-  see [Challenge](03-challenge.md)  
+
+see [Challenge](03-challenge.md)

@@ -1,7 +1,8 @@
 #!/bin/bash
 vuepress build docs
-cd docs/.vuepress/dist
+cd .vuepress/dist
 
+rm .DS_Store
 git init
 git add .
 git commit -m "Deploy"  

@@ -1,3 +1,8 @@
+---
+title: "refugeek"
+layout: "detail"
+---
+
 # Contents
 
 ### Javascript

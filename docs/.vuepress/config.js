@@ -23,6 +23,7 @@ function createContainer(type, defaultTitle) {
 }
 
 module.exports = {
+	base: "/",
 	title: "Denis Tsoi",
 	description: "Code to eat 🍞",
 	postcss: {
@@ -32,13 +33,7 @@ module.exports = {
 		]
 	},
 	themeConfig: {
-		nav: [
-			{ text: "cv", link: "cv" },
-			{ text: "refugeek", link: "rg" }
-
-			// { text: "talks", link: "https://denistsoi.github.io/talks/" },
-			// { text: "Github", link: "https://github.com/denistsoi" }
-		]
+		nav: [{ text: "cv", link: "/cv/" }, { text: "refugeek", link: "/rg/" }]
 	},
 	markdown: {
 		// options for markdown-it-anchor
