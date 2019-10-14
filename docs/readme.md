@@ -3,7 +3,8 @@
 I'm Denis;  
 a software developer based in Hong Kong.
 
-I've help startups and clients ship product features. I have a personal interest in solving difficult problems.
+I've help startups and clients ship product features.  
+I have a personal interest in solving difficult problems.
 
 ::: slot image
 ![alt text](assets/picture.jpg)
@@ -13,4 +14,12 @@ I've help startups and clients ship product features. I have a personal interest
 
 - [CV](./cv/)
 - [Refugeek](rg/)
-  :::
+
+:::
+
+::: slot socials
+
+- [Github](https://github.com/denistsoi)
+- [Linkedin](https://linkedin.com/in/denistsoi)
+
+:::

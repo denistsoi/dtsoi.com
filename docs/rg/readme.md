@@ -5,6 +5,12 @@ layout: "detail"
 
 # Contents
 
+### Description
+
+[Refugeek](https://refugeek.org/) is an initiative in Hong Kong hosted by BSD code + design academy,  
+to teach refugees and asylum seekers to learn code and web design skills.  
+I was a volunteer teacher between `May to June 2018`.
+
 ### Javascript
 
 - [Lesson-01 - Functions, Conditions + Math](./js/01/)
