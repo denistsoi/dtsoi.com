@@ -8,7 +8,10 @@
 	},
 	"scripts": {
 		"dev": "vuepress dev docs",
-		"build": "vuepress build docs"
+		"build": "vuepress build docs && npm run copy",
+		"clean": "rm -rf public/",
+		"copy": "cp -r ./docs/.vuepress/dist public",
+		"deploy": "npm run clean && npm run build && npm run copy"
 	},
 	"author": "Denis Tsoi",
 	"license": "MIT",
