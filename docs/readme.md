@@ -21,5 +21,6 @@ I have a personal interest in solving difficult problems.
 
 - [Github](https://github.com/denistsoi)
 - [Linkedin](https://linkedin.com/in/denistsoi)
+- [Stackoverflow](https://stackoverflow.com/users/2312051/denis-tsoi)
 
 :::

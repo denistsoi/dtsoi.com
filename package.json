@@ -8,7 +8,7 @@
 	},
 	"scripts": {
 		"dev": "vuepress dev docs",
-		"deploy": "bash sh/deploy.sh"
+		"build": "vuepress build docs"
 	},
 	"author": "Denis Tsoi",
 	"license": "MIT",

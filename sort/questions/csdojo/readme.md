@@ -1,2 +1,0 @@
-- [longest-substring](./longest-substring.html)
-- [maximum-subarray](./maximum-subarray.html)
