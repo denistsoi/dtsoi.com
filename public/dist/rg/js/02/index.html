@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Lesson 02 - Loops + Arrays | Denis Tsoi</title>
+    <meta name="generator" content="VuePress 1.5.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#3a0839">
+    <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+    <meta name="description" content="Code to eat 🍞">
+    <meta name="msapplication-TileColor" content="#3a0839">
+    <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="preload" href="/assets/css/0.styles.cb0348db.css" as="style"><link rel="preload" href="/assets/js/app.b72c55bf.js" as="script"><link rel="preload" href="/assets/js/12.36246d34.js" as="script"><link rel="prefetch" href="/assets/js/10.59bb2e70.js"><link rel="prefetch" href="/assets/js/11.736ab8f4.js"><link rel="prefetch" href="/assets/js/13.39b2ec1e.js"><link rel="prefetch" href="/assets/js/14.e9751482.js"><link rel="prefetch" href="/assets/js/15.8055fd06.js"><link rel="prefetch" href="/assets/js/16.8060c179.js"><link rel="prefetch" href="/assets/js/17.76ad7c84.js"><link rel="prefetch" href="/assets/js/18.00c399e6.js"><link rel="prefetch" href="/assets/js/19.33e9c3a9.js"><link rel="prefetch" href="/assets/js/2.28a3f0ba.js"><link rel="prefetch" href="/assets/js/20.f0a67d76.js"><link rel="prefetch" href="/assets/js/21.e6d60a69.js"><link rel="prefetch" href="/assets/js/22.585f7c35.js"><link rel="prefetch" href="/assets/js/23.fb5019b6.js"><link rel="prefetch" href="/assets/js/24.8c019683.js"><link rel="prefetch" href="/assets/js/25.97827648.js"><link rel="prefetch" href="/assets/js/26.248007f3.js"><link rel="prefetch" href="/assets/js/27.8672561d.js"><link rel="prefetch" href="/assets/js/28.802f7947.js"><link rel="prefetch" href="/assets/js/29.8b164938.js"><link rel="prefetch" href="/assets/js/3.ec977c5d.js"><link rel="prefetch" href="/assets/js/30.505f0a78.js"><link rel="prefetch" href="/assets/js/31.d4a13c80.js"><link rel="prefetch" href="/assets/js/32.3127130e.js"><link rel="prefetch" href="/assets/js/33.826d71ed.js"><link rel="prefetch" href="/assets/js/4.2fd2ed1b.js"><link rel="prefetch" href="/assets/js/5.87fcef5a.js"><link rel="prefetch" href="/assets/js/6.8dfeb333.js"><link rel="prefetch" href="/assets/js/7.7b9e4e3b.js"><link rel="prefetch" href="/assets/js/8.dc722ec1.js"><link rel="prefetch" href="/assets/js/9.65e219c3.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.cb0348db.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div><div class="w-full border-b-2 border-blue-500"><div class="md:w-4/5 max-w-2xl p-4 md:px-8 m-auto"><div class="home"><a href="/" class="router-link-active">/src</a></div> <div><span><a href="/cv/" rel="preload" class="block lg:inline-block pr-2 lg:mt-0 no-underline hover:text-orange">- cv</a></span><span><a href="/rg/" rel="preload" class="block lg:inline-block pr-2 lg:mt-0 no-underline hover:text-orange router-link-active">- refugeek</a></span><span><a href="/templates/" rel="preload" class="block lg:inline-block pr-2 lg:mt-0 no-underline hover:text-orange">- templates</a></span></div></div></div> <div class="w-full md:w-4/5 text-gray m-auto p-4 md:p-8 max-w-2xl"><div class="content__default"><h1 id="lesson-02-loops-arrays">Lesson 02 - Loops + Arrays</h1> <h2 id="overview">Overview</h2> <h3 id="what-we-have-covered">what we have covered</h3> <ul><li>Chrome Developer Tools (inspector)</li> <li>Functions</li> <li>Conditional Logic (if else)</li> <li>Math functions</li></ul> <h3 id="what-we-will-cover">what we will cover</h3> <ul><li>Loops (for loop)</li> <li>Arrays</li></ul> <h2 id="loops">Loops</h2> <h3 id="basic-loop">Basic Loop</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">for</span> <span class="token punctuation">(</span>variable declaration<span class="token punctuation">;</span> condition<span class="token punctuation">;</span> variable increment<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// some code</span>
+<span class="token punctuation">}</span>
+</code></pre></div><hr> <h3 id="example">Example</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">var</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">5</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;Printing number &quot;</span> <span class="token operator">+</span> i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><hr> <h3 id="challenge">Challenge</h3> <ul><li>write a <code>for loop</code> that prints numbers 1-10</li> <li>write a <code>for loop</code> that prints even or odd number</li></ul> <hr> <h3 id="for-loop-1-10">for loop 1-10</h3> <p><code>console.log() 1 to 10</code></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">var</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> <span class="token number">10</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	<span class="token comment">// code here</span>
+<span class="token punctuation">}</span>
+</code></pre></div><hr> <h3 id="for-loop-1-10-answer">for loop 1-10 (answer)</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">var</span> counter <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> counter <span class="token operator">&lt;=</span> <span class="token number">10</span><span class="token punctuation">;</span> counter<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	<span class="token comment">// code here</span>
+	console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>counter<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><hr> <h3 id="for-loop-even-odd">for loop even/odd</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">var</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> <span class="token number">10</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	<span class="token comment">// code here</span>
+	<span class="token comment">// remember to use the % (modulus symbol)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><hr> <h3 id="for-loop-1-to-100">for loop 1 to 100</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">var</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> <span class="token number">100</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	<span class="token comment">// code here</span>
+	console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><hr> <p>Logical Steps</p> <ol><li>for</li> <li>initialize some var (as counter);</li> <li>find condition before entering loop</li> <li>execute code inside for loop</li> <li>add counter</li></ol> <hr> <h3 id="for-loop-even-odd-2">for loop even/odd</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">var</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> <span class="token number">10</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	<span class="token comment">// code here</span>
+	<span class="token keyword">if</span> <span class="token punctuation">(</span>i <span class="token operator">%</span> <span class="token number">2</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token comment">// print out even</span>
+	<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+		<span class="token comment">// print out odd</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><hr> <h3 id="review">review</h3> <ul><li>loops (counting 0 -&gt; 10)</li> <li>loops (counting 0 -&gt; 100)</li> <li>loops (counting 0 -&gt; 15)</li> <li>loops (odd and even)</li> <li>loops (assignment) : counting backwards (decrement);</li></ul> <hr> <h2 id="data-types-arrays">Data Types (Arrays)</h2> <p><img src="/assets/images/array.png" alt="array"></p> <blockquote><p>arrays are like boxes where we can store an unlimited amount of data</p></blockquote> <hr> <h3 id="array-addressing-index">Array addressing (index)</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> refugeek <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'Alice'</span><span class="token punctuation">,</span> <span class="token string">'Bambi'</span><span class="token punctuation">,</span> <span class="token string">'Claire'</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+refugeek<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token comment">// 'Alice'</span>
+refugeek<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token comment">// 'Bambi'</span>
+refugeek<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span> <span class="token comment">// 'Claire'</span>
+
+<span class="token operator">...</span>old way
+refugeek1 <span class="token operator">=</span> <span class="token string">'Alice'</span><span class="token punctuation">;</span>
+refugeek2 <span class="token operator">=</span> <span class="token string">'Bambi'</span><span class="token punctuation">;</span>
+<span class="token operator">...</span> etc etc
+
+arr<span class="token punctuation">.</span>length <span class="token comment">// returns 3; ...3 elements are in the array</span>
+</code></pre></div><h2 id="array-methods">Array methods</h2> <div class="language- extra-class"><pre class="language-text"><code>.slice    // shallow copy array
+
+.unshift  // add new element to start of array
+.shift    // get first element and mutate array
+
+.push     // add new element to end of array
+.pop      // get last element and mutate array
+
+.indexOf  // find index of array with content
+.splice   // remove parts of an array
+</code></pre></div><hr> <h3 id="slice">slice</h3> <hr> <h3 id="slice-example">.slice (example)</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> arr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">&quot;bread&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;cheese&quot;</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> copy <span class="token operator">=</span> arr<span class="token punctuation">.</span><span class="token function">slice</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>copy<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// ['bread', 'cheese'];</span>
+</code></pre></div><hr> <h4 id="slice-startindex-endindex">.slice(startIndex, endIndex)</h4> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> arr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">&quot;bread&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;cheese&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;fruit&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;milk&quot;</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> copy <span class="token operator">=</span> arr<span class="token punctuation">.</span><span class="token function">slice</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>copy<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// ['cheese', 'fruit']</span>
+</code></pre></div><hr> <h3 id="push">push</h3> <div class="language- extra-class"><pre class="language-text"><code>.push     // add new element to end of array
+</code></pre></div><hr> <h3 id="push-example">push (example)</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> colors <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">&quot;red&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;orange&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;yellow&quot;</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+colors<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token string">&quot;green&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// [&quot;red&quot;, &quot;orange&quot;, &quot;yellow&quot;, &quot;green&quot;]</span>
+</code></pre></div><hr> <h3 id="pop">pop</h3> <div class="language- extra-class"><pre class="language-text"><code>.pop      // get last element and mutate array
+</code></pre></div><hr> <h3 id="pop-example">pop (example)</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> colors <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">&quot;red&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;orange&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;yellow&quot;</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+colors<span class="token punctuation">.</span><span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//[&quot;red&quot;, &quot;orange&quot;]</span>
+
+<span class="token comment">// pop() returns the removed element</span>
+<span class="token keyword">var</span> col <span class="token operator">=</span> colors<span class="token punctuation">.</span><span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// orange</span>
+</code></pre></div><hr> <h3 id="unshift">unshift</h3> <div class="language- extra-class"><pre class="language-text"><code>.unshift  // add new element to start of array
+</code></pre></div><hr> <h3 id="unshift-example">unshift (example)</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> colors <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">&quot;red&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;orange&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;yellow&quot;</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+colors<span class="token punctuation">.</span><span class="token function">unshift</span><span class="token punctuation">(</span><span class="token string">&quot;infrared&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>colors<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// [&quot;infrared&quot;, &quot;red&quot;, &quot;orange&quot;, &quot;yellow&quot;]</span>
+</code></pre></div><hr> <h3 id="shift">shift</h3> <div class="language- extra-class"><pre class="language-text"><code>.shift    // get first element and mutate array
+</code></pre></div><hr> <h3 id="shift-example">shift (example)</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> colors <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">&quot;red&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;orange&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;yellow&quot;</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+colors<span class="token punctuation">.</span><span class="token function">shift</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// &quot;red&quot;</span>
+
+<span class="token comment">// shift() returns the removed element</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>colors<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// [&quot;orange&quot;, &quot;yellow&quot;];</span>
+</code></pre></div><hr> <h3 id="indexof">.indexOf</h3> <div class="language- extra-class"><pre class="language-text"><code>.indexOf   // find index of array with content
+</code></pre></div><hr> <h3 id="indexof-example">.indexOf (example)</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> friends <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">&quot;Charlie&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;Liz&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;David&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;Mattias&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;Liz&quot;</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token comment">//returns the first index</span>
+<span class="token comment">// at which a given element can be found</span>
+
+friends<span class="token punctuation">.</span><span class="token function">indexOf</span><span class="token punctuation">(</span><span class="token string">&quot;David&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 2</span>
+friends<span class="token punctuation">.</span><span class="token function">indexOf</span><span class="token punctuation">(</span><span class="token string">&quot;Liz&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 1, not 4</span>
+
+<span class="token comment">//returns -1 if the element is not present.</span>
+friends<span class="token punctuation">.</span><span class="token function">indexOf</span><span class="token punctuation">(</span><span class="token string">&quot;Hagrid&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//-1</span>
+</code></pre></div><hr> <h3 id="splice">.splice</h3> <div class="language- extra-class"><pre class="language-text"><code>.splice(startIndex, howMany)  // remove parts of an array
+</code></pre></div><hr> <h3 id="splice-example">.splice (example)</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> fruits <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">&quot;Banana&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;Orange&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;Lemon&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;Apple&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;Mango&quot;</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+<span class="token comment">// use splice to remove 'Orange' from the array</span>
+<span class="token comment">// specify index of the element to be removed and</span>
+<span class="token comment">// how many elements should be removed from that index</span>
+
+fruits<span class="token punctuation">.</span><span class="token function">splice</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// returns: [&quot;Orange&quot;]</span>
+
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>fruits<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// prints: [&quot;Banana&quot;, &quot;Lemon&quot;, &quot;Apple&quot;, &quot;Mango&quot;]</span>
+</code></pre></div><hr> <h3 id="array-methods-overview">array methods overview</h3> <div class="language- extra-class"><pre class="language-text"><code>.slice    // shallow copy array
+
+.unshift  // add new element to start of array
+.shift    // get first element and mutate array
+
+.push     // add new element to end of array
+.pop      // get last element and mutate array
+
+.indexOf  // find index of array with content
+.splice   // remove parts of an array
+</code></pre></div><hr> <h3 id="challenge-2">challenge</h3> <ul><li>create an array with some data (e.g. height)</li></ul> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> heights <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+<span class="token comment">// heights</span>
+<span class="token comment">// [172, 123, 167]</span>
+<span class="token comment">// use heights.push(???);</span>
+
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>heights<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><hr> <h3 id="challenge-answer">challenge (answer)</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> heights <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+height<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">175</span><span class="token punctuation">;</span> <span class="token comment">// 175</span>
+height<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">123</span><span class="token punctuation">;</span> <span class="token comment">// 123</span>
+height<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">165</span><span class="token punctuation">;</span> <span class="token comment">// 165</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>heights<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// [175, 123, 165]</span>
+</code></pre></div><hr> <h3 id="challenge-without-index">challenge (without index);</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> animals <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token operator">??</span><span class="token operator">?</span><span class="token punctuation">,</span> <span class="token operator">??</span><span class="token operator">?</span><span class="token punctuation">,</span> <span class="token operator">??</span><span class="token operator">?</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>animals<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// ['elephant', 'chicken', 'cow']</span>
+
+</code></pre></div><hr></div></div> <div class="w-full border-b-2 border-blue-500"><div class="md:w-4/5 max-w-2xl p-4 md:px-8 m-auto"><div class="footer"><span class="text-xs">Denis Tsoi © 2019</span></div></div></div></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.b72c55bf.js" defer></script><script src="/assets/js/12.36246d34.js" defer></script>
+  </body>
+</html>

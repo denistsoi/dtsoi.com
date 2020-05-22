@@ -6,4 +6,4 @@ rm .DS_Store
 git init
 git add .
 git commit -m "Deploy"  
-git push -f git@github.com:denistsoi/denistsoi.github.io master:master
+git push -f git@github.com:denistsoi/dtsoi.com master:master
