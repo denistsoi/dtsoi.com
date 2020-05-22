@@ -123,7 +123,7 @@ Various
 ### 05/2020
 
 ::: job
-Udacity
+Udacity  
 Data Engineer Nanodegree
 :::
 
@@ -137,7 +137,7 @@ Data Engineer Nanodegree
 ### 03/2020 - 05/2020
 
 ::: job
-Udacity
+Udacity  
 Fullstack Nanodegree
 :::
 
@@ -145,26 +145,25 @@ Fullstack Nanodegree
 - Project 2 - API Development and Documentation  
 - Project 3 - Identity and Access Management (IAM)  
 - Project 4 - Server Deployment, Containerisation and Testing  
-- Project 5 - Capstone Project
+- Project 5 - Capstone Project  
 
 
-```
-1. Music Booking app  
+##### Music Booking app  
 Introduction to Flask and Flask-migrate. Building models via flask-sqlalchemy over Postgresql.
 
-2. Trivia app  
+##### Trivia app  
 Reenforcing API development with Flask backend and basic React frontend.
 
-3. Coffee shop  
+##### Coffee shop  
 Exposure to Auth0 RBAC permissions and postman collections test runner.  
 More API Flask development, mainly on authorisation of jwt tokens.  
 
-4. Deploying an app on AWS EKS.  
+##### Deploying an app on AWS EKS.  
 AWS IAM setup and EKS setup.  
 
-5. Capstone:  
+##### Capstone:  
 Movie Agency api with RBAC using Auth0.
-```
+
 
 ### 03/2020
 
