@@ -14,7 +14,7 @@ I have a personal interest in solving difficult problems.
 
 - [CV](./cv/)
 - [Refugeek](rg/)
-- [Template](template/)
+- [Templates](templates/)
 
 :::
 
