@@ -1,12 +1,10 @@
 <template>
-  <div>
-    <span>Main</span>
-  </div>
+  <div>Generic</div>
 </template>
 
 <script>
 export default {
-  name: "Main"
+
 }
 </script>
 

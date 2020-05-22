@@ -1,24 +1,24 @@
-// import { createApp } from "vue";
-// import App from "./App.vue";
-// import "./index.css";
-// createApp(App).mount("#app");
-
-
-import { createRouter } from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 import { createApp } from "vue";
 import App from "./App.vue";
 import "./index.css";
 
 import routes from "./routes";
 
-const router = createRouter({
-  routes: [{
-    path: "/",
-    component: { template: "<div>Home</div>"}, 
+import Home from "./views/Home.vue"
+import CV from "./views/CV.vue"
+import Generic from "./views/Generic.vue"
 
+const routerHistory = createWebHistory()
+const router = createRouter({
+  history: routerHistory,
+  strict: true,
+  routes: [{
+    path: "/",    
+    component: Home, 
   }, {
     path: "/cv",
-    component: { template: "<div>CV</div>"}
+    components: { default: CV, other: Generic }
   }]
 })
 
