@@ -1,6 +1,6 @@
 ---
 title: "refugeek"
-layout: "detail"
+layout: "Detail"
 ---
 
 # Contents

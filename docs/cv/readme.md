@@ -1,6 +1,6 @@
 ---
 title: "cv"
-layout: "detail"
+layout: "Detail"
 ---
 
 ::: tip Summary
@@ -107,6 +107,8 @@ Various
 - Took an interest in programming and enrolled into [General Assembly's Frontend Web Development](#_04-2013-08-2013) first part-time course.
 
 ## Education
+
+### 
 
 ### 04/2013 - 08/2013
 

@@ -9,18 +9,20 @@
 
 <script>
 import coreheader from "./core/header";
-import detail from "./layouts/detail";
-import home from "./layouts/home";
+import Detail from "./layouts/Detail";
+import Home from "./layouts/Home";
+import Template from "./layouts/Template";
 
 export default {
   components: {
     coreheader,
-    detail,
-    home
+    Detail,
+    Home,
+    Template
   },
   computed: {
     layout() {
-      return this.$page.frontmatter.layout || "home";
+      return this.$page.frontmatter.layout || "Home";
     }
   }
 };
