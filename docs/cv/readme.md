@@ -11,6 +11,17 @@ Looking for open-minded groups of engineers that **love** to code.
 
 ## Relevant Experience
 
+### 11/2019 - Present
+
+
+::: job
+Sabbatical
+:::
+
+- Learned to make bread
+- Graduated from Udacity Fullstack Nanodegree
+- Started Udacity Data Enginnering
+
 ### 08/2018 - 11/2019 <span class="time">15m</span>
 
 ::: job
@@ -102,13 +113,74 @@ Precious Metals Dealer (Senior)
 Various
 :::
 
-- In-charge of training and setting up teams for monitoring precious metals volatility.
-- Self-taught programming by automating work flows with VBA scripts.
-- Took an interest in programming and enrolled into [General Assembly's Frontend Web Development](#_04-2013-08-2013) first part-time course.
+- In-charge of training and setting up teams for monitoring precious metals volatility.  
+- Self-taught programming by automating work flows with VBA scripts.  
+- Took an interest in programming and enrolled into [General Assembly's Frontend Web Development](#_04-2013-08-2013) first part-time course.  
 
 ## Education
 
-### 
+
+### 05/2020
+
+::: job
+Udacity
+Data Engineer Nanodegree
+:::
+
+- Project 1 - Data Modeling
+- Project 2 - Cloud Data Warehousing
+- Project 3 - Data Lakes with Apache Spark
+- Project 4 - Data Pipelines with Apache Airflow
+- Project 5 - Data Engineering Capstone
+
+
+### 03/2020 - 05/2020
+
+::: job
+Udacity
+Fullstack Nanodegree
+:::
+
+- Project 1 - SQL and Data Modeling for the Web  
+- Project 2 - API Development and Documentation  
+- Project 3 - Identity and Access Management (IAM)  
+- Project 4 - Server Deployment, Containerisation and Testing  
+- Project 5 - Capstone Project
+
+
+```
+1. Music Booking app  
+Introduction to Flask and Flask-migrate. Building models via flask-sqlalchemy over Postgresql.
+
+2. Trivia app  
+Reenforcing API development with Flask backend and basic React frontend.
+
+3. Coffee shop  
+Exposure to Auth0 RBAC permissions and postman collections test runner.  
+More API Flask development, mainly on authorisation of jwt tokens.  
+
+4. Deploying an app on AWS EKS.  
+AWS IAM setup and EKS setup.  
+
+5. Capstone:  
+Movie Agency api with RBAC using Auth0.
+```
+
+### 03/2020
+
+::: job
+Code for Hong Kong
+Python Practitioner
+:::
+
+
+### 01/2020
+
+::: job
+Code for Hong Kong
+Python for Beginners
+:::
+
 
 ### 04/2013 - 08/2013
 
