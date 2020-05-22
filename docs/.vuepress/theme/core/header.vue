@@ -19,6 +19,7 @@
 
 <script>
 export default {
+  name: "coreheader",
   props: {
     showLinks: {
       type: Boolean,
