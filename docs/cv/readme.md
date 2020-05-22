@@ -142,27 +142,17 @@ Fullstack Nanodegree
 :::
 
 - Project 1 - SQL and Data Modeling for the Web  
+  - Introduction to Flask and Flask-migrate. Building models via flask-sqlalchemy over Postgresql.
 - Project 2 - API Development and Documentation  
+  - Reenforcing API development with Flask backend and basic React frontend.
 - Project 3 - Identity and Access Management (IAM)  
+  - Exposure to Auth0 RBAC permissions and postman collections test runner.  
+  - More API Flask development, mainly on authorisation of jwt tokens.  
 - Project 4 - Server Deployment, Containerisation and Testing  
+  - Deploying an app on AWS EKS.  
+  - AWS IAM setup and EKS setup.  
 - Project 5 - Capstone Project  
-
-
-##### Music Booking app  
-Introduction to Flask and Flask-migrate. Building models via flask-sqlalchemy over Postgresql.
-
-##### Trivia app  
-Reenforcing API development with Flask backend and basic React frontend.
-
-##### Coffee shop  
-Exposure to Auth0 RBAC permissions and postman collections test runner.  
-More API Flask development, mainly on authorisation of jwt tokens.  
-
-##### Deploying an app on AWS EKS.  
-AWS IAM setup and EKS setup.  
-
-##### Capstone:  
-Movie Agency api with RBAC using Auth0.
+  - Movie Agency api with RBAC using Auth0.
 
 
 ### 03/2020
@@ -172,6 +162,13 @@ Code for Hong Kong
 Python Practitioner
 :::
 
+- List Comprehensions 
+- Writing modules 
+- Practice with venv  
+- Project: Alarm script
+- Project: Webscraper with requests, webdriver and selenium
+- Project: Udacity reviews  
+
 
 ### 01/2020
 
@@ -179,6 +176,14 @@ Python Practitioner
 Code for Hong Kong
 Python for Beginners
 :::
+
+- Introduction to jupyter notebooks  
+- Intro to standard python lib  
+- Intro to pandas  
+- Project: Rock/Paper/Scissors game  
+- Project: Hangman game  
+- Project: Jokes/Requests game   
+
 
 
 ### 04/2013 - 08/2013
