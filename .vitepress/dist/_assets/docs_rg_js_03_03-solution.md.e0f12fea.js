@@ -1,0 +1,1 @@
+import{f as e,e as t}from"./common-67d8f095.js";const r='{"title":"","frontmatter":{"prev":"/en/js/03/03-challenge.md","next":"/en/js/03/"},"lastUpdated":1591831922648.6829}';var n={};n.render=function(r,n){return t(),e("div")};export default n;export{r as __pageData};

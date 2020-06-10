@@ -1,0 +1,1 @@
+import{f as n,e as a,s}from"./common-67d8f095.js";const t='{"title":"Task","frontmatter":{},"headers":[{"level":2,"title":"Task","slug":"task"},{"level":2,"title":"html","slug":"html"},{"level":2,"title":"js","slug":"js"}],"lastUpdated":1591831922650.2524}';var p={};const o=s('',10);p.render=function(s,t){return a(),n("div",null,[o])};export default p;export{t as __pageData};

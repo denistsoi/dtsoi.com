@@ -1,0 +1,1 @@
+import{f as n,e as a,s}from"./common-67d8f095.js";const t='{"title":"alternative","frontmatter":{"prev":"/en/js/03/","next":"/en/js/03/01-solution.md"},"headers":[{"level":3,"title":"alternative","slug":"alternative"}],"lastUpdated":1591831922648.041}';var p={};const o=s('',3);p.render=function(s,t){return a(),n("div",null,[o])};export default p;export{t as __pageData};

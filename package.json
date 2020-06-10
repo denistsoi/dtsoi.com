@@ -7,8 +7,8 @@
 		"doc": "docs"
 	},
 	"scripts": {
-		"dev": "vuepress dev docs",
-		"build": "vuepress build docs && npm run copy",
+		"dev": "npx vitepress",
+		"build": "npx vitepress build && npm run copy",
 		"clean": "rm -rf public/",
 		"copy": "cp -r ./docs/.vuepress/dist public",
 		"deploy": "npm run clean && npm run build && npm run copy"
@@ -22,6 +22,7 @@
 		"postcss-import": "^12.0.1",
 		"postcss-loader": "^3.0.0",
 		"tailwindcss": "^1.1.2",
+		"vitepress": "^0.3.1",
 		"vuepress": "^1.1.0"
 	}
 }

@@ -1,0 +1,1 @@
+import{f as n,e as s,s as a}from"./common-67d8f095.js";const p='{"title":"Solution","frontmatter":{"prev":"/en/js/01/challenge.md","next":"/en/"},"headers":[{"level":2,"title":"Solution","slug":"solution"}],"lastUpdated":1591831922647.5151}';var t={};const o=a('',2);t.render=function(a,p){return s(),n("div",null,[o])};export default t;export{p as __pageData};

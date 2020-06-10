@@ -1,0 +1,1 @@
+import{f as t,e}from"./common-67d8f095.js";const a='{"title":"template","frontmatter":{"title":"template","layout":"Template"},"lastUpdated":1591831922651.72}';var r={};r.render=function(a,r){return e(),t("div")};export default r;export{a as __pageData};

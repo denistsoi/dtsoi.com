@@ -1,0 +1,1 @@
+import{f as e,e as a,s as r}from"./common-67d8f095.js";const o='{"title":"personal","frontmatter":{},"headers":[{"level":3,"title":"author","slug":"author"}],"lastUpdated":1591831922729.107}';var s={};const t=r('',4);s.render=function(r,o){return a(),e("div",null,[t])};export default s;export{o as __pageData};

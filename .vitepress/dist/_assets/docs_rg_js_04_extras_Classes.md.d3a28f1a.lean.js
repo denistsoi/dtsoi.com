@@ -1,0 +1,1 @@
+import{f as n,e as s,s as a}from"./common-67d8f095.js";const p='{"title":"Class Version ES6","frontmatter":{},"headers":[{"level":2,"title":"Class Version ES6","slug":"class-version-es6"}],"lastUpdated":1591831922650.5933}';var t={};const o=a('',2);t.render=function(a,p){return s(),n("div",null,[o])};export default t;export{p as __pageData};
