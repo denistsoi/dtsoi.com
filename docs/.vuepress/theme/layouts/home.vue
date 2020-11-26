@@ -17,8 +17,13 @@
 </template>
 
 <script>
+import corefooter from '../core/footer'
+
 export default {
-  name: "Home"
+  name: "Home",
+  components: {
+    corefooter
+  }
 };
 </script>
 

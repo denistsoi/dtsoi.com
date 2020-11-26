@@ -1,27 +1,28 @@
 {
-	"name": "personal",
-	"version": "1.0.0",
-	"description": "a vuepress site for resume",
-	"main": "index.js",
-	"directories": {
-		"doc": "docs"
-	},
-	"scripts": {
-		"dev": "vuepress dev docs",
-		"build": "vuepress build docs && npm run copy",
-		"clean": "rm -rf public/",
-		"copy": "cp -r ./docs/.vuepress/dist public",
-		"deploy": "npm run clean && npm run build && npm run copy"
-	},
-	"author": "Denis Tsoi",
-	"license": "MIT",
-	"dependencies": {},
-	"devDependencies": {
-		"autoprefixer": "^9.4.2",
-		"markdown-it-container": "^2.0.0",
-		"postcss-import": "^12.0.1",
-		"postcss-loader": "^3.0.0",
-		"tailwindcss": "^1.1.2",
-		"vuepress": "^1.1.0"
-	}
+  "name": "personal",
+  "version": "1.0.0",
+  "description": "a vuepress site for resume",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs && npm run copy",
+    "clean": "rm -rf public/",
+    "copy": "cp -r ./docs/.vuepress/dist public",
+    "deploy": "npm run clean && npm run build && npm run copy"
+  },
+  "author": "Denis Tsoi",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "markdown-it-container": "^2.0.0",
+    "postcss": "^8.1.10",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "tailwindcss": "^2.0.1",
+    "vuepress": "^1.1.0"
+  }
 }
